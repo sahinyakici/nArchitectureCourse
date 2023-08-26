@@ -6,4 +6,11 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+
+    <ItemGroup>
+        <Reference Include="Core.Packages">
+            <HintPath>..\..\..\corePackages\Core.Packages\Core.Packages\bin\Debug\net7.0\Core.Packages.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
 </Project>
