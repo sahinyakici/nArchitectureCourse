@@ -11,6 +11,9 @@
         <Reference Include="Core.Packages">
             <HintPath>..\..\..\corePackages\Core.Packages\Core.Packages\bin\Debug\net7.0\Core.Packages.dll</HintPath>
         </Reference>
+        <Reference Include="Core.Persistence">
+            <HintPath>..\..\..\corePackages\Core.Packages\Core.Persistence\bin\Debug\net7.0\Core.Persistence.dll</HintPath>
+        </Reference>
     </ItemGroup>
 
 </Project>
