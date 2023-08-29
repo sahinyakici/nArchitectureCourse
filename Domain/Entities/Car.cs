@@ -18,9 +18,10 @@ public class Car : Entity<Guid>
     {
     }
 
-    public Car(Guid modelId, int kilometer, short modelYear, string plate, short minFindexScore,
+    public Car(Guid id, Guid modelId, int kilometer, short modelYear, string plate, short minFindexScore,
         CarState carState) : this()
     {
+        Id = id;
         ModelId = modelId;
         Kilometer = kilometer;
         ModelYear = modelYear;
