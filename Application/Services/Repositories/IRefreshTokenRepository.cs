@@ -1,0 +1,9 @@
+using Core.Packages.Repositories;
+using Core.Security.Entities;
+
+namespace Application.Services.Repositories;
+
+public interface IRefreshTokenRepository : IAsyncRepository<RefreshToken, int>, IRepository<RefreshToken, int>
+{
+    Task<IList<RefreshToken>> GetOldRefreshTokensAsync(int userId, int refreshTokenTtl);
+}
